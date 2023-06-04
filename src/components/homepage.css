@@ -1,0 +1,74 @@
+body {
+    background-color: #000008;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .container {
+    width: 100% ;
+    height: auto;
+    background-color: #1F3CA1;
+  }
+
+  .App-logo {
+    width: 60vmin;
+    height: 18vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    position: relative;
+    background-color: #fafafa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(8px + 2vmin);
+    color: white;
+  }
+  
+  .News-Article{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  
+  .picture-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .article-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(2, 1, 37);
+    margin-bottom: 20px;
+    font-family: "Dancing Script";
+  }
+  .picture-summary {
+    margin-top: 24px;
+    font-size: px;
+    color: rgb(2, 1, 37);
+    text-align: center;
+    font-family: "Dancing Script";
+  }
+  
+  .login {
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    color: rgb(233, 232, 244);
+    font-family: "Dancing Script";
+  }
+  
+  .App-link {
+    color: #fafafa;
+  }
+  

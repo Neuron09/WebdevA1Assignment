@@ -1,0 +1,60 @@
+body {
+    background-color: #fff;
+  }
+
+  .logo-container {
+    width: 100%;
+    height: auto;
+    background-color: #1f3ca1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-container {
+    width: 60vmin;
+    height: 18vmin;
+    pointer-events: none;
+  }
+
+  .login {
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    color: rgb(233, 232, 244);
+    font-family: "Dancing Script";
+    font-size: 18px;
+  }
+
+  .summary-container {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .like-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #406ef9;
+    color: rgb(0, 0, 6);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
